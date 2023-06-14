@@ -1,0 +1,38 @@
+.hero {
+    background-color: #2e2f42;
+}
+
+/* 
+|---------------------------
+|Header styles
+|---------------------------
+ */
+ .header {}
+
+ .header-nav {}
+
+ .header-logo {}
+
+ .header-list {}
+
+ .header-link {}
+
+ .header-contacts {}
+
+ .header-mail {}
+
+ .header-tel {}
+
+
+ /* 
+|---------------------------
+|Hero styles
+|---------------------------
+ */
+ .hero {}
+
+ .hero-title {}
+
+ .hero-btn {}
+
+ 
