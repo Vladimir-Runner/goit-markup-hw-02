@@ -1,6 +1,25 @@
+/* Common styles */
+body {
+    font-family: Raleway, Roboto, sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
 .hero {
     background-color: #2e2f42;
 }
+
 
 /* 
 |---------------------------
@@ -11,7 +30,11 @@
 
  .header-nav {}
 
- .header-logo {}
+ .logo {}
+
+ .web {}
+ 
+ .studio-header {}
 
  .header-list {}
 
