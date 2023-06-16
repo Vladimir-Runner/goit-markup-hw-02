@@ -32,7 +32,14 @@ button {
 
  .logo {}
 
- .web {}
+ .web {
+    Font family: Raleway 
+    Font style: ExtraBold 
+    Font size: 18px 
+    Line height: 1.17 
+    Letter spacing: 3% 
+    Color: #4D5AE5
+ }
  
  .studio-header {}
 
