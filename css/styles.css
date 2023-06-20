@@ -94,13 +94,8 @@ button {
          color: var(--string-web-cl);
  }
  
- .studio {
+ .studio, .studio-header {
         color: var(--main-dark-bg);
- }
-
-
- .studio-header {
-            color: var(--main-dark-bg) ;
  }
 
  .header-list {                
