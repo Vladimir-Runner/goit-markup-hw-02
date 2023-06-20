@@ -1,5 +1,5 @@
 :root {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 
 
 /* Font */
@@ -35,7 +35,7 @@ body {
     letter-spacing: 0.02em;
     /* color: var(--light-bg); */
     color: #434455;
-    background-color: #ffffff;
+    background-color: var(--main-light-bg);
 }
 
 /* Reset */
@@ -80,12 +80,13 @@ button {
  }
 
  .logo {
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color:#4D5AE5;
  }
 
  .web {
@@ -169,21 +170,21 @@ button {
  }
 
  .hero-btn {
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
+        /* display: flex; */
         align-items: center;
         letter-spacing: 0.04em;
         color: var(--main-light-bg);       
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 32px;
-        gap: 10px;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+        /* flex-direction: row;
+        align-items: flex-start; */
+        /* padding: 16px 32px; */
+        /* gap: 10px; */
+        /* flex: none; */
+        /* order: 0; */
+        /* flex-grow: 0; */
         background: var(--string-web-cl);
         /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px; */
@@ -293,9 +294,9 @@ button {
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--main-dark-bg);
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+        /* flex: none; */
+        /* order: 0; */
+        /* flex-grow: 0; */
 }
 
 .mark {}
@@ -311,9 +312,9 @@ button {
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--link-cl);
-        flex: none;
-        order: 1;
-        flex-grow: 0;
+        /* flex: none;
+        /* order: 1; */
+        flex-grow: 0; */
 }
 
 .tom {}
@@ -354,7 +355,7 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--studio-down-cl);
-        width: 264px;
+        /* width: 264px; */
  }
 
 
