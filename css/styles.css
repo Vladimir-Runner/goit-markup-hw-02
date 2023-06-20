@@ -56,11 +56,11 @@ button {
 }
 
 .hero {
-    background-color: #2e2f42;
+    background-color: var(--main-dark-bg);
 }
 
 .link {
-    color: #434455;
+    color: var(--link-cl);
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ button {
  .header {}
 
  .header-nav {
-    background: #FFFFFF;
+    background: var(--main-light-bg);
  }
 
  .logo {
@@ -86,11 +86,11 @@ button {
  }
 
  .web {
-         Color: #4D5AE5;
+         Color: var(--string-web-cl);
  }
  
  .studio-header {
-            Color: #2E2F42;
+            color: var(--main-dark-bg) ;
  }
 
  .header-list {                
@@ -99,7 +99,7 @@ button {
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                color: #2E2F42;                
+                color: var(--main-dark-bg);                
  }
 
 
@@ -107,7 +107,7 @@ button {
 .header-link:hover,
 .header-link:focus 
  {
-        color: #404BBF;
+        color: var(--ocean-cl);
 }
 
 
@@ -130,13 +130,13 @@ button {
     font-size: 16px;
     letter-spacing: 0.02em;
     font-style: normal;
-    color: #434455;
+    color: var(--link-cl);
  }
 
  /* для 3-й домашки */
  /* .header-mail:active,
  .header-tel:active {
-    color: #404BBF;
+    color: var(--ocean-cl);
  } */
 
  .header-contacts:hover,
@@ -145,7 +145,7 @@ button {
  .header-mail:focus,
  .header-tel:hover,
  .header-tel:focus {
-     color: #404BBF;
+     color: var(--ocean-cl);
  }
 
  /* 
@@ -162,7 +162,7 @@ button {
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
+        color: var(--main-light-bg);
  }
 
  .hero-btn {
@@ -173,7 +173,7 @@ button {
         display: flex;
         align-items: center;
         letter-spacing: 0.04em;
-        color: #FFFFFF;       
+        color: var(--main-light-bg);       
         flex-direction: row;
         align-items: flex-start;
         padding: 16px 32px;
@@ -181,7 +181,7 @@ button {
         flex: none;
         order: 0;
         flex-grow: 0;
-        background: #4D5AE5;
+        background: var(--string-web-cl);
         /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px; */
         text-align: center;
@@ -189,7 +189,7 @@ button {
 
  .hero-btn:hover,
  .hero-btn:focus {
-        background-color: #404BBF;       
+        background-color: var(--ocean-cl);       
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         text-align: center;
@@ -214,7 +214,7 @@ button {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;    
-        color: #2E2F42;
+        color: var(--main-dark-bg);
 }
 
 .item {
@@ -223,7 +223,7 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;    
-        color: #434455;
+        color: var(--link-cl);
 }
 
 .strategy-item {}
@@ -258,7 +258,7 @@ button {
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42;
+        color: var(--main-dark-bg);
 }
 
 /* 
@@ -278,7 +278,7 @@ button {
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42;
+        color: var(--main-dark-bg);
 }
 
 .homan, .picture {
@@ -289,7 +289,7 @@ button {
         line-height: 1.2;        
         text-align: center;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--main-dark-bg);
         flex: none;
         order: 0;
         flex-grow: 0;
@@ -307,7 +307,7 @@ button {
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--link-cl);
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -332,7 +332,7 @@ button {
 */
 
  .footer {
-    background: #2E2F42;
+    background: var(--main-dark-bg);
  }
 
  .logo {}
@@ -340,7 +340,7 @@ button {
  .web {}
 
  .studio-down {
-        Color: #F4F4FD;
+        Color: var(--studio-down-cl);
  }
 
  .footer-description {
@@ -350,7 +350,7 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #F4F4FD;
+        color: var(--studio-down-cl);
         width: 264px;
  }
 
@@ -371,5 +371,5 @@ button {
 }
 
 .btn-press:active {
-    background-color: #404BBF;
+    background-color: var(--ocean-cl);
 }
