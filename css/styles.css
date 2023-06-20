@@ -281,7 +281,7 @@ button {
         color: #2E2F42;
 }
 
-.homan {
+.homan, .picture {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -299,7 +299,7 @@ button {
 
 .product {}
 
-.worker {
+.worker, .type-application {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
