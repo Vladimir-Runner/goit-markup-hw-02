@@ -114,14 +114,18 @@ button {
 
 
  .header-link {
-       color: var(--main-dark-bg); 
+       color: var(--main-dark-bg);        
+ }
+
+ .address {
+    font-style: normal;
  }
 
  .header-contacts {}
 
 
- .header-mail,
- .header-tel {
+ .header-item,
+  {
     list-style: none;
     text-decoration: none;
     color: currentColor;
