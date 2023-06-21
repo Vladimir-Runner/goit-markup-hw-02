@@ -143,10 +143,8 @@ button {
 
  .header-contacts:hover,
  .header-contacts:focus,
- .header-mail:hover,
- .header-mail:focus,
- .header-tel:hover,
- .header-tel:focus {
+ .header-item:hover,
+ .header-item:focus {
      color: var(--ocean-cl);
  }
 
