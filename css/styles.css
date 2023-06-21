@@ -270,11 +270,12 @@ button {
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11px;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--main-dark-bg);
+        background-color: var(--studio-down-cl);
 }
 
 .team-item {
@@ -282,11 +283,11 @@ button {
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11px;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        background-color: var(--studio-down-cl);
+        
 }
 
 .homan, .picture {
