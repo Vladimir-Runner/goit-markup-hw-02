@@ -222,13 +222,7 @@ button {
         color: var(--link-cl);
 }
 
-.team-list {
 
-}
-
-.team-worker {
-
-}
 
 .strategy-item {}
 
@@ -263,6 +257,7 @@ button {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--main-dark-bg);
+
 }
 
 /* 
@@ -296,6 +291,10 @@ button {
         letter-spacing: 0.02em;
         text-transform: capitalize;        
 }
+
+.team-list {}
+
+.team-worker {}
 
 .our-team {
         background-color: var(--studio-down-cl);
