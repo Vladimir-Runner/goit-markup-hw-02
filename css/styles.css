@@ -292,9 +292,29 @@ button {
         text-transform: capitalize;        
 }
 
-.team-list {}
+.team-list {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--main-dark-bg);
+        background-color: var(--main-light-bg);
+}
 
-.team-worker {}
+.team-worker {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--link-cl);
+        background-color: var(--main-light-bg);
+}
 
 .our-team {
         background-color: var(--studio-down-cl);
