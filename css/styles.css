@@ -409,7 +409,7 @@ button {
 |--------------------------- 
 */
  
-.btn-nav {
+.btn-filter {
         color: var(--string-web-cl);
         background-color: var(--studio-down-cl);
         text-align: center;
@@ -423,8 +423,8 @@ button {
         cursor: pointer;
 }
 
-.btn-nav:hover, 
-.btn-nav:focus {
+.btn-filter:hover, 
+.btn-filter:focus {
         color: var(--main-light-bg);
         background-color: var(--ocean-cl);
 }
