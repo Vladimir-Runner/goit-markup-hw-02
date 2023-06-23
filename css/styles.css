@@ -426,7 +426,7 @@ button {
 .btn-nav:hover, 
 .btn-nav:focus {
         color: var(--main-light-bg);
-        background-color: var();
+        background-color: var(--ocean-cl);
 }
 
 /* Можливо так - це підказка з чату у figma */
