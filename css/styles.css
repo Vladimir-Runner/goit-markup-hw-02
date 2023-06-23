@@ -327,7 +327,7 @@ button {
         background-color: var(--main-light-bg);
 }
 
-.homan, .picture {
+.homan, .application {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
